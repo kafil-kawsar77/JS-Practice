@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Bootstrap">
+    <meta name="description" content="Personal protfolio">
+    <meta name="keywords" content="html, html tiutorial">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="5 days">
+    <meta name="author" content="Kafil-kawsar">
+
+
+    <!-- CSS links-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Js Practice</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Window Alert</h2>
+          Select some of the text: <input type="text" value="Hello world!" onselect="onS()">
+      <form action="#" onsubmit="onSub()"> <br>
+          Enter name: <input type="text" name="fname" placeholder="Type your name">
+        <input type="submit" value="Submit">
+      </form><br>
+        <h2>Output - Document Write</h2>
+      <button class="btn btn-danger mb-2" onclick="dw()"> 10+5 = ?</button>
+    <button type="button" class="btn btn-success mb-2" onclick="document.write( 10 + 5)">Try it</button> <br>
+
+    
+    <textarea id="textString" cols="50" rows="4">
+      This is a       block of text with some  extra    spaces in it.   Click the     button to remove them. 
+     </textarea>
+         <button onclick="trimSpaces()">Click me</button>
+     
+     
+       <h2>Output - Window Print</h2>
+    <button type="button" class="btn btn-primary mb-2" onclick="window.print()">Print this page</button>
+    </div>
+
+    <!-- JS links -->
+    <script src="js/popper.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
